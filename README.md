@@ -44,6 +44,10 @@ if __name__ == '__main__':
     test_background()
     common()
 ```   
+### install  
+clone the project and ``` python setup.py install ```
+
+--- 
 suggestion and pull is welcome   
 
 
