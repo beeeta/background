@@ -12,11 +12,11 @@ from shutil import rmtree
 from setuptools import setup, Command
 
 # Package meta-data.
-NAME = 'background'
+NAME = 'background2'
 DESCRIPTION = 'It does what it says it does.'
-URL = 'https://github.com/kennethreitz/background'
-EMAIL = 'me@kennethreitz.org'
-AUTHOR = 'Kenneth Reitz'
+URL = 'https://github.com/beeeta/background'
+EMAIL = 'betalun@qq.com'
+AUTHOR = 'Betalun'
 VERSION = '0.1.1'
 
 # What packages are required for this module to be executed?
@@ -33,7 +33,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 
 # Import the README and use it as the long-description.
 # Note: this will only work if 'README.rst' is present in your MANIFEST.in file!
-with io.open(os.path.join(here, 'README.rst'), encoding='utf-8') as f:
+with io.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = '\n' + f.read()
 
 
@@ -80,7 +80,7 @@ setup(
     author_email=EMAIL,
     url=URL,
     # If your package is a single module, use this instead of 'packages':
-    py_modules=['background'],
+    py_modules=['background2'],
 
     # entry_points={
     #     'console_scripts': ['mycli=mymodule:cli'],
