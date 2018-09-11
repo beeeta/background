@@ -45,10 +45,12 @@ if __name__ == '__main__':
     common()
 ```   
 ### install  
+```pip install background2```   
+or  
 clone the project and ``` python setup.py install ```
 
 --- 
-suggestion and pull is welcome   
+suggestion and pull request are welcome   
 
 
 
